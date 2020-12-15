@@ -1,4 +1,3 @@
-// slider
 $(function(){
 	var $setElm = $('.viewer'),
 	fadeSpeed = 1500,

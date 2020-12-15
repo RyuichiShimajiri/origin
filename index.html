@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-	
 </head>
 <body>
 	<!-- heder -->
@@ -39,20 +38,20 @@
 		<ul class="viewcontent">
 			<li>
 				<picture class="p-1">
-					<source srcset="./img/swiper01.jpg" media="(max-width :767px)" />
-					<img class="nightviwe" src="./img/swiper01.jpg" alt="アメリカンビレッジロゴ文字" />
+					<source srcset="./img/slide1.jpg" media="(max-width :767px)" />
+					<img class="nightviwe" src="./img/slide1.jpg" alt="アメリカンビレッジロゴ文字" />
 				</picture>
 			</li>
 			<li>
 				<picture class="p-1">
-					<source srcset="" media="(max-width :767px)" />
-					<img class="nightviwe" src="" alt="アメリカンビレッジロゴ文字" />
+					<source srcset="./img/slide4.jpg" media="(max-width :767px)" />
+					<img class="nightviwe" src="./img/slide4.jpg" alt="アメリカンビレッジロゴ文字" />
 				</picture>
 			</li>
 			<li>
 				<picture class="p-1">
-					<source srcset="img/visual_3_sp.png" media="(max-width :767px)" />
-					<img class="nightviwe" src="" alt="アメリカンビレッジロゴ文字" />
+					<source srcset="./img/slide3.jpg" media="(max-width :767px)" />
+					<img class="nightviwe" src="./img/slide3.jpg" alt="アメリカンビレッジロゴ文字" />
 				</picture>
 			</li>
 		</ul>
@@ -60,11 +59,11 @@
 
 	</div>
 	<!--/.viewer-->
-	<picture class="p-2">
-		<source srcset="<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png" media="(max-width :767px)" />
-		<img class="word" src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="フォントの画像">
+	<!-- <picture class="p-2">
+		<source srcset="./img/swiper01.jpg" media="(max-width :767px)" />
+		<img class="word" src="./img/swiper01.jpg" alt="フォントの画像">
 	</picture>	
-</div>
+</div> -->
 
 
 	<!-- slider ここから -->
@@ -73,20 +72,17 @@
 	<main class="welcome" id="margin-for-fixed">
 		<h1 class="title">"エメラルドグリーンの楽園へようこそ"</h1>
 		<ul class="guideline">
-			<li>Welcome to the paradise of Miyakojima</li>
+			<img class="bar" src="./img/topBnr.jpg" alt="">
 		</ul>
-		<div class="btn-group"></i>
+		<div class="btn-group">
 			<button class="btn register">
-				<i class="fas fa-golf-ball"></i>
-			    GOLF
+			    基本プラン<br><span>月額2,760</span><br>3ヶ月に一度のフィルター交換
 			</button>
 			<button class="btn login">
-				<i class="fas fa-bed"></i>
-			    STAY
+			    基本プラン<br><span>月額2,760</span><br>3ヶ月に一度のフィルター交換
 			</button>
 			<button class="btn login">
-				<i class="fas fa-utensils"></i>
-			    RESTRANT
+			    基本プラン<br><span>月額2,760</span><br>3ヶ月に一度のフィルター交換
 			</button>
 
 		</div>
@@ -98,10 +94,11 @@
     <footer>
     	<div class="copyright">©Copyright 2020 Ocean's Resort MIYAKOJIMA. All right reserved,</div>
 	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<!-- swiper -->
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
-	<script src="./css/app.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script defer src="./js/app.js"></script>
 
 
 </body>
