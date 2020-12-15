@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>Oceans Resort Miyakojima</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- heder -->
+	<header class="fixed">
+		<!-- header 左側 -->
+		<div class="icon">
+			<img src="img/logo.png">
+			<span class="name">Oceas Resort Miyakojima</span>
+		</div>
+
+		<!-- header 右側 -->
+		<ul class="header-right">
+			<li>お問合せ</li>
+			<br>
+			<li>Tel:0980-77-8012</li>
+		</ul>
+	</header>
+	<!-- header ここまで -->
+	<!-- nav ここから -->
+	<nav>
+		<ul>
+			<li class="menu-item">ご利用料金</li>
+			<li class="menu-item">製品について</li>
+			<li class="menu-item">設置までの流れ</li>
+		</ul>
+	</nav>
+	<!-- slider ここから -->
+	<div class="viewer">
+		<ul class="viewcontent">
+			<li>
+				<picture class="p-1">
+					<source srcset="./img/swiper01.jpg" media="(max-width :767px)" />
+					<img class="nightviwe" src="./img/swiper01.jpg" alt="アメリカンビレッジロゴ文字" />
+				</picture>
+			</li>
+			<li>
+				<picture class="p-1">
+					<source srcset="" media="(max-width :767px)" />
+					<img class="nightviwe" src="" alt="アメリカンビレッジロゴ文字" />
+				</picture>
+			</li>
+			<li>
+				<picture class="p-1">
+					<source srcset="img/visual_3_sp.png" media="(max-width :767px)" />
+					<img class="nightviwe" src="" alt="アメリカンビレッジロゴ文字" />
+				</picture>
+			</li>
+		</ul>
+
+
+	</div>
+	<!--/.viewer-->
+	<picture class="p-2">
+		<source srcset="<?php echo get_template_directory_uri(); ?>/img/visual_text_sp.png" media="(max-width :767px)" />
+		<img class="word" src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="フォントの画像">
+	</picture>	
+</div>
+
+
+	<!-- slider ここから -->
+
+	<!-- main welcome 始まり -->
+	<main class="welcome" id="margin-for-fixed">
+		<h1 class="title">"エメラルドグリーンの楽園へようこそ"</h1>
+		<ul class="guideline">
+			<li>Welcome to the paradise of Miyakojima</li>
+		</ul>
+		<div class="btn-group"></i>
+			<button class="btn register">
+				<i class="fas fa-golf-ball"></i>
+			    GOLF
+			</button>
+			<button class="btn login">
+				<i class="fas fa-bed"></i>
+			    STAY
+			</button>
+			<button class="btn login">
+				<i class="fas fa-utensils"></i>
+			    RESTRANT
+			</button>
+
+		</div>
+	</main>
+	<!-- welcome ここまで -->
+	<!-- curriculum -->
+
+    <!-- contact kokomade -->
+    <footer>
+    	<div class="copyright">©Copyright 2020 Ocean's Resort MIYAKOJIMA. All right reserved,</div>
+	</footer>
+	<!-- swiper -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+	<script src="./css/app.js"></script>
+
+
+</body>
+</html>

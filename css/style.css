@@ -1,0 +1,317 @@
+body{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 16px;
+    position: relative;
+    overflow-x: hidden;
+    background-color: #FFF;
+    color: #323235;
+}
+/*--------header--------*/
+
+header{
+	background-color: rgba(45, 104, 192, 0.2);
+	box-shadow: 0 0 0 rgba(58, 151, 209, 0.2);
+	color: #fff;
+	font-size: 18px;
+	padding: 5px 0;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	width: 100%;
+}
+.fixed{
+	position: relative;
+	width: 100%;
+	margin-top:0 ;
+}
+.icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left:80px;
+}
+
+.icon img{
+	height: 60px;
+}
+.header-right{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;
+	margin-right: 80px;
+}
+.header-right:first-child{
+	margin-right:20px;
+}
+/*-------headerここまで----------*/
+
+/* ------navここから------------ */
+nav {
+	width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+nav ul{
+	display: table;
+    table-layout: fixed;
+    width: 100%;
+    padding: 15px 0 0;
+    position: relative;
+}
+nav ul li{
+	font-size:14px;
+	font-weight: bold;
+	display:table-cell;
+	width:100%;
+	border-left:1px solid ;
+	text-align: center;
+	justify-content: space-between;
+	position:relative;
+}
+/* --------navここまでーーーーーーーー */
+/* ーーーーーsliderここからーーーーーー */
+/* スライダー */
+.viewer {
+	position: relative;
+    margin: 0 auto;
+	width: 1152px;
+	height: 448px;
+    text-align: left;
+	overflow: hidden;
+	z-index: 5;
+	
+}
+ 
+.viewer ul {
+	width: 1152px;
+	height: 100%;
+    text-align: left;
+    overflow: hidden;
+	position: relative;
+	z-index: 5;
+	
+}
+ 
+.viewer ul li {
+    top: 0;
+    left: 0;
+	width: 1152px;
+	z-index: 5;
+	height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.nightviwe{
+	display: flex;
+	position: relative;
+	z-index: 5;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+
+/* ーーーーーsliderここからーーーーーー */
+/* welcome */
+.title{
+	font-size: 20px;
+}
+
+.guideline{
+	margin-top: 10px;
+	font-size: 64px;
+	font-weight: bold;
+}
+
+.guideline >li {
+	margin-top:16px;
+
+}
+
+.btn-group{
+	margin-top: 60px;
+	background-color: rgba(8, 4, 4, 0.2);
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn{
+	height: 55px;
+	width: 210px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 28px;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: 120px;
+	background-color: rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0 rgba(8, 4, 4, 0.2);
+}
+
+.btn:first-child{
+	margin-left: 0;
+}
+
+.btn:hover{
+	background-color: rgb(236,227,35);
+}
+
+.welcome{
+	background-image: url(../img/main.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 740px;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+/*-- welcome ここまで --*/
+
+/*Footer*/
+footer{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	background-color: #ccc;
+	width: 100%;
+	height:70px;
+}
+.copyright{
+	margin: 25px;
+}
+/*Footerここまで*/
+/*レスポンシブ対応*/
+/*スマホ*/
+@media screen and (max-width: 480px){
+ body{
+ 	min-width: 375px;
+    }
+
+ header{
+ 	font-size: 8px;
+ 	display: flex;
+ 	justify-content: space-around;
+ }
+
+ .icon{
+ 	margin: 10px;
+ }
+
+ .icon img {
+ 	height: 30px;
+ }
+
+ .header-right{
+	margin: 20px;
+	
+}
+ .welcome{
+ 	background-image: url(../img/main01.jpg);
+ 	background-size: cover;
+ 	background-position: center;
+
+ }
+ .title{
+ 	font-size: 6px;
+ }
+
+ .guideline{
+	margin-top: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.btn-group{
+	margin-top: 40px;
+	background-color: rgba(8, 4, 4, 0.2);
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.btn{
+	height: 30px;
+	width: 70%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 9px;
+	border-radius: 10px;
+	cursor:pointer;
+	margin-left: 40px;
+	margin-top: 20px;
+	border: 1px;
+}
+
+.btn:last-child{
+	margin-bottom: 20px;
+}
+
+.login {
+	margin-right: 40px;
+}
+
+.copyright{
+	font-size: 10px;
+}
+@media(min-width: 992px){
+	.swiper-wrapper{
+	  flex-wrap:wrap;
+	}
+	.swiper-slide{
+	  width: 33.3%;
+	}
+	.swiper-button-prev,.swiper-button-next,.swiper-pagination{
+	  display: none;
+	}
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
