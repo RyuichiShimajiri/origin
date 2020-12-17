@@ -148,7 +148,6 @@ header{
   /* ドロワー ここまで*/
 
 nav {
-  	width: 100%;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -373,6 +372,10 @@ footer{
  .icon{
  	margin: 10px;
  }
+ .fixed{
+	 /* position: absolute; */
+	 z-index: 1000;
+ }
 
  .icon img {
  	height: 30px;
@@ -433,6 +436,11 @@ footer{
 .hamburger{
 	display:block;
 }
+.drower.on {
+	z-index: 200;
+	display: block;
+	position: absolute;
+  }
 
 @media(min-width: 992px){
 	.swiper-wrapper{
