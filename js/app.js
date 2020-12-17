@@ -27,16 +27,12 @@ $(function(){
 	$('.blog-content').on('mouseleave',function(){
 		$(this).removeClass('active');
 	});
-
-
-
-
 });
+
 // ハンバーガー
 $(function() {
 	// ハンバーガーメニューが押された時
 	$('#toggle').on('click',function(){
-		console.log('aiueo');
 		$(this).toggleClass('on');
 		$('.js-drower').toggleClass('on');
 		
