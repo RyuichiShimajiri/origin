@@ -39,7 +39,7 @@ $(function() {
 		let isActive = $(this).hasClass('on');
 		toggleDrower(isActive);
 	});
-});
+  });
   
   //ハンバーガーメニューでドロップダウン
 	function toggleDrower(isActive) {
